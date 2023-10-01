@@ -10,7 +10,7 @@ import lombok.*;
 @Setter
 @ToString
 @AllArgsConstructor
-public class Student {
+public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(updatable = false,unique = true)
