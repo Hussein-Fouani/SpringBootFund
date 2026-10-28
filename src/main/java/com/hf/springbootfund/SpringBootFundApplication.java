@@ -14,7 +14,7 @@ public class SpringBootFundApplication {
 
 
     @Bean
-    public CommandLineRunner commandLineRunner(String[] args) {
+    public CommandLineRunner commandLineRunner() {
         return commandLineRunner -> {
 
         };
